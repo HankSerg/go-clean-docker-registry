@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/r0mdau/go-clean-docker-registry/cmd"
+	"github.com/HankSerg/go-clean-docker-registry/cmd"
 	"log"
 	"os"
 )

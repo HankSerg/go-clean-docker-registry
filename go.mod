@@ -1,4 +1,4 @@
-module github.com/r0mdau/go-clean-docker-registry
+module github.com/HankSerg/go-clean-docker-registry
 
 go 1.16
 

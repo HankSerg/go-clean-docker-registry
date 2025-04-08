@@ -4,8 +4,8 @@ import (
 	"bufio"
 	"encoding/json"
 	"fmt"
-	"github.com/r0mdau/go-clean-docker-registry/internal/filter"
-	"github.com/r0mdau/go-clean-docker-registry/pkg/registry"
+	"github.com/HankSerg/go-clean-docker-registry/internal/filter"
+	"github.com/HankSerg/go-clean-docker-registry/pkg/registry"
 	"github.com/urfave/cli/v2"
 	"log"
 	"os"
@@ -32,7 +32,7 @@ func CreateApp() *cli.App {
 	imageFlag := &cli.StringFlag{
 		Name:     "image",
 		Aliases:  []string{"i"},
-		Usage:    "Image name to delete ie r0mdau/nodejs",
+		Usage:    "Image name to delete ie HankSerg/nodejs",
 		Required: true,
 	}
 	tagFlag := &cli.StringFlag{
